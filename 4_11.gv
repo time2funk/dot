@@ -15,4 +15,12 @@ graph G {
 	H -- E [color = red, label=" 5 "];
 	H -- G  [color = red, label=" 6 "];
 
+	A [label = "A 0/15"];
+	S [label = "S 1/14"];
+	C [label = "C 2/13"];
+	D [label = "D 3/4"];
+	E [label = "E 5/12"];
+	H [label = "H 6/11"];
+	G [label = "G 7/10"];
+	F [label = "F 8/9"];
 }

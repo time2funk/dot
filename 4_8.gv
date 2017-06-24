@@ -14,5 +14,13 @@ graph G {
 	C -- E [color = red, label=" 5 "];
 	H -- E;
 	H -- G  [color = red, label=" 7 "];
-
+	
+	A [label = "A 0"];
+	S [label = "S 1"];
+	C [label = "C 2"];
+	D [label = "D 3"];
+	E [label = "E 4"];
+	F [label = "F 5"];
+	G [label = "G 6"];
+	H [label = "H 7"];
 }
