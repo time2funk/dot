@@ -1,0 +1,18 @@
+graph G {
+	// DFS (4_11)
+	// s15928
+	// used red color to show visited adges 
+	// used indexes for visited adges to show sequence
+
+	layout = neato ;
+	A -- S [color = red, label=" 1 "];
+	S -- C [color = red, label=" 2 "];
+	S -- G ;
+	C -- F ;
+	G -- F [color = red, label=" 7 "];
+	C -- D [color = red, label=" 3 "];
+	C -- E [color = red, label=" 4 "];
+	H -- E [color = red, label=" 5 "];
+	H -- G  [color = red, label=" 6 "];
+
+}

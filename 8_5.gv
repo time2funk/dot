@@ -1,0 +1,28 @@
+// Graf Kolo W6 pokolorowany 3-ma koloramy.
+// Zeby pokazacz przyklad liczby chromatycznej (min liczbe k, ze graf k-kolorowalny)
+graph G{
+	margin = 0; 
+	ratio = fill;
+	size ="4,4";
+	layout = neato ;
+	label = "W6"
+
+	a,b,c,d,e,f,g [ label=" " style=filled];	
+	a, c, e [fillcolor=lightblue];
+	f,  b, d [fillcolor=red];
+	g [fillcolor="#4d0066",style="filled"];
+
+	a -- b;
+	a -- g;
+	a -- f;
+	b -- c;
+	b -- g;
+	f -- e;
+	f -- g;
+	c -- d;
+	c -- g;
+	e -- d;
+	e -- g;
+	g -- d;
+
+}

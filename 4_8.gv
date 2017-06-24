@@ -1,0 +1,18 @@
+graph G {
+	// BFS (4_8)
+	// s15928
+	// used red color to show visited adges 
+	// used indexes for visited adges to show sequence
+
+	layout = neato ;
+	A -- S [color = red, label=" 1 "];
+	S -- C [color = red, label=" 2 "];
+	S -- G [color = red, label=" 3 "];
+	C -- F [color = red, label=" 6 "];
+	G -- F;
+	C -- D [color = red, label=" 4 "];
+	C -- E [color = red, label=" 5 "];
+	H -- E;
+	H -- G  [color = red, label=" 7 "];
+
+}
